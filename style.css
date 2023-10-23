@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 97, 88, 0.3);
+    background-color: rgba(33, 192, 255, 0.5);
+    width: 100%;
+}
+
+@media (max-width:520px){
+    body {
+        margin: 0;
+        background-color: rgba(0, 97, 88, 0.3);
+        background-color: rgba(33, 192, 255, 0.5);
+        width: fit-content;
+    } 
+}
+
+header {
+    background-color: rgba(59, 87, 255, 0.8);
+    width: auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+img.icon {
+    width: 100px;
+    border-radius: 30px;
+    padding:0;
+    margin: 10;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+main{
+    width: max-content;
+    margin: 0 auto;
+    padding: 20px 60px;
+    background-color: rgba(33, 192, 255, 0.8);
+    background-color: #f1ebeb;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#pagesectionI{
+    justify-content: space-between;
+}
+
+footer{
+    background-color: rgba(19, 224, 225, 0.8);
+    box-shadow: 0px -1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: rgba(5, 5, 5, 1);
+    text-shadow: 0 0 1px 1px rgba(255, 255, 255, 1);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+div.content {
+    width: 400px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h1, h2, p, li {
+    font-family: 'Montserrat';
+}
+
+li {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 3px 0px;
+    text-align: justify;
+}
+
+
+h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+main h1, main h2 {
+    padding: 5px 10px;
+    width:100%;
+    background-color: rgba(33, 192, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 1px 1px 1px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+img {
+    padding: 10px;
+}
+
+img.print{
+    height:300px;
+}
+
+img.printI{
+    height: 230px;
+}
+
+img.arquivo{
+    width: 300px;
+}
+
+footer p {
+    margin:5px;
+}
+
+video{
+    height: 500px;
+}
+
+a#download {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(33, 192, 255, 0.205);
+    box-shadow: 0px 1px 1px 1.5px rgba(25, 31, 65, 0.8);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #212645;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 600;
+}
+a:active {
+    color: rgba(59, 87, 255, 0.8);
+}
+
+section {
+    padding: 35px 0;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
